@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>game</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="preload" href="attacksound.wav" as="audio">
+    <link rel="preload" href="monsterdeathsound.wav" as="audio">
+    <link rel="preload" href="playerdeathsound.mp3" as="audio">
+
+</head>
+<body>
+    <div id="game">
+        <h1 style="text-align: center;margin-bottom: 15px;">DRAGON REPELLER</h1>
+        <div id="stats">
+            <span class="stat">XP:<strong><span id="xpval">0</span></strong></span>
+            <span class="stat">Heath:<strong><span id="healthval">100</span></strong></span>
+            <span class="stat">Gold:<strong><span id="goldval">50</span></strong></span>
+        </div>
+        <div id="buttons">
+            <button id="button1">Go to store</button>
+            <button id="button2">Go to cave</button>
+            <button id="button3">Fight dragon</button>
+        </div>
+        <div id="monsterstats">
+            <span class="stat">Monster name:<strong><span id="monstername"></span></strong></span>
+            <span class="stat">Health:<strong><span id="monsterhealth"></span></strong></span>
+        </div>
+        <div id="text">
+            Welcome to Dragon Repeller.You must defeat the dragon that is preventing people from leaving the town. 
+            You are in the town square. 
+            Where do you want to go?Use the buttons above.
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

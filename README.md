@@ -69,6 +69,7 @@ index.html
 
 I’m a 3rd-year B.Tech CSE student exploring web development through hands-on projects. This project helped me learn DOM manipulation, styling, event handling, and media integration.
 
-📫 Connect on LinkedIn
+👩‍💻 [LinkedIn](https://www.linkedin.com/in/sohabegum/)
+
 
 
